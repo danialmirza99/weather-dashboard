@@ -16,17 +16,17 @@
     <div class="city-selection">
         <h2>Search for a City:</h2>
         <div>
-            <input type="text" id="search" placeholder="City...">
+            <input type="text" class="city-value" id="search" placeholder="City...">
         </div>
         <br>
         <div>
-            <button>Search</button>
+            <button onclick="searchButton(this)">Search</button>
         </div>
     </div>
     <section>
         <div class="history">
             <div class="history-flex-container">
-                <button id="hist1">Atlanta</button>
+                <button id="hist1"></button>
                 <button id="hist2">Denver</button>
                 <button id="hist3">Seattle</button>
                 <button id="hist4">San Francisco</button>
@@ -42,7 +42,7 @@
         <div class="current-weather">
             <div class="current-flex-container">
                 <div id="current-weather">
-                    <h2 id="current-location">Atlanta (9/13/2022)</h2>
+                    <h2 id="current-location"></h2>
                     <p id="current-icon">icon</p>
                     <p id="current-temp">Temp: 76.62</p>
                     <p id="current-wind">Wind: 8.43 MPH</p>

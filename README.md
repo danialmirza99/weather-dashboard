@@ -37,7 +37,7 @@ Please refer to the LICENSE in the repo.
 
 [Deploable Application Link](https://danialmirza99.github.io/weather-dashboard/)
 
-[Github Repository Link](https://danialmirza99.github.io/weather-dashboard/)
+[Github Repository Link](https://github.com/danialmirza99/weather-dashboard)
 
 
 ## Screenshots

@@ -35,9 +35,9 @@ Please refer to the LICENSE in the repo.
 
 ## Links
 
-[Deploable Application Link](https://danialmirza99.github.io/work-day-scheduler/)
+[Deploable Application Link](https://danialmirza99.github.io/weather-dashboard/)
 
-[Github Repository Link](https://github.com/danialmirza99/work-day-scheduler)
+[Github Repository Link](https://danialmirza99.github.io/weather-dashboard/)
 
 
 ## Screenshots

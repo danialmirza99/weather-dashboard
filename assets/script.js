@@ -38,7 +38,6 @@ var fifthIcon = document.getElementById("five-day-icon");
 const searchButton = (event) =>{
     var cityName = document.querySelector('.city-value').value;
     cityName = cityName.charAt(0).toUpperCase() + cityName.slice(1);
-    // cityName = "Miami";
     
     fetch("https://api.openweathermap.org/geo/1.0/direct?q="+cityName+"&appid=239391e5829e93d40ba73fc38797a87d")
         .then(function (res){

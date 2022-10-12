@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
     <link rel="stylesheet" href="assets/styles.css">
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"
+    ></script>
+   
 
     <script defer src="./assets/script.js"></script>
 </head>
@@ -27,13 +32,13 @@
         <div class="history">
             <div class="history-flex-container">
                 <button id="hist1"></button>
-                <button id="hist2">Denver</button>
-                <button id="hist3">Seattle</button>
-                <button id="hist4">San Francisco</button>
-                <button id="hist5">Orlando</button>
-                <button id="hist6">New York</button>
-                <button id="hist7">Chicago</button>
-                <button id="hist8">Austin</button>
+                <button id="hist2"></button>
+                <button id="hist3"></button>
+                <button id="hist4"></button>
+                <button id="hist5"></button>
+                <button id="hist6"></button>
+                <button id="hist7"></button>
+                <button id="hist8"></button>
             </div>
         </div>
     </section>
@@ -43,49 +48,49 @@
             <div class="current-flex-container">
                 <div id="current-weather">
                     <h2 id="current-location"></h2>
-                    <p id="current-icon">icon</p>
-                    <p id="current-temp">Temp: 76.62</p>
-                    <p id="current-wind">Wind: 8.43 MPH</p>
-                    <p id="current-humidity">Humidity: 44%</p>
+                    <p id="current-icon"></p>
+                    <p id="current-temp"></p>
+                    <p id="current-wind"></p>
+                    <p id="current-humidity"></p>
                 </div>
             </div>
         </div>
         <h3 id="future-label">5 Day Forecast</h3>
         <div class="future-weather">
             <div id="one-day-after">
-                <p>(9/14/2022)</p>
-                <p id="one-day-icon">icon</p>
-                <p id="one-day-temp">Temp: 76.62</p>
-                <p id="one-day-wind">Wind: 8.43 MPH</p>
-                <p id="one-day-humidity">Humidity: 44%</p>
+                <p id="one-date"></p>
+                <p id="one-day-icon"></p>
+                <p id="one-day-temp"></p>
+                <p id="one-day-wind"></p>
+                <p id="one-day-humidity"></p>
             </div>
             <div id="two-day-after">
-                <p>(9/15/2022)</p>
-                <p id="two-day-icon">icon</p>
-                <p id="two-day-temp">Temp: 76.62</p>
-                <p id="two-day-wind">Wind: 8.43 MPH</p>
-                <p id="two-day-humidity">Humidity: 44%</p>
+                <p id="two-date"></p>
+                <p id="two-day-icon"></p>
+                <p id="two-day-temp"></p>
+                <p id="two-day-wind"></p>
+                <p id="two-day-humidity"></p>
             </div>
             <div id="three-day-after">
-                <p>(9/16/2022)</p>
-                <p id="three-day-icon">icon</p>
-                <p id="three-day-temp">Temp: 76.62</p>
-                <p id="three-day-wind">Wind: 8.43 MPH</p>
-                <p id="three-day-humidity">Humidity: 44%</p>
+                <p id="three-date"></p>
+                <p id="three-day-icon"></p>
+                <p id="three-day-temp"></p>
+                <p id="three-day-wind"></p>
+                <p id="three-day-humidity"></p>
             </div>
             <div id="four-day-after">
-                <p>(9/17/2022)</p>
-                <p id="four-day-icon">icon</p>
-                <p id="four-day-temp">Temp: 76.62</p>
-                <p id="four-day-wind">Wind: 8.43 MPH</p>
-                <p id="four-day-humidity">Humidity: 44%</p>
+                <p id="four-date"></p>
+                <p id="four-day-icon"></p>
+                <p id="four-day-temp"></p>
+                <p id="four-day-wind"></p>
+                <p id="four-day-humidity"></p>
             </div>
             <div id="five-day-after">
-                <p>(9/18/2022)</p>
-                <p id="five-day-icon">icon</p>
-                <p id="five-day-temp">Temp: 76.62</p>
-                <p id="five-day-wind">Wind: 8.43 MPH</p>
-                <p id="five-day-humidity">Humidity: 44%</p>
+                <p id="five-date"></p>
+                <p id="five-day-icon"></p>
+                <p id="five-day-temp"></p>
+                <p id="five-day-wind"></p>
+                <p id="five-day-humidity"></p>
             </div>
         </div>
     </section>
